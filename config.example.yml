@@ -1,0 +1,16 @@
+# Copy to config.local.yml and replace every placeholder with local paths.
+# config.local.yml is ignored by Git and must never be committed.
+
+paths:
+  gebco_bathymetry: /path/to/GEBCO_ocean.tif
+  annual_averages: /path/to/annual_temperature_salinity
+  basin_shapefiles: /path/to/IHO_ocean_basins
+  goship_gridded: /path/to/goship_gridded_products
+  iapv4_ensemble_cache: /path/to/iapv4_le_cache
+  results_root: /path/to/results
+
+processing:
+  start_year: 1940
+  end_year: 2025
+  gpu_devices: [0]
+  map_downsample_factor: 4
