@@ -84,6 +84,25 @@ python src/figures/plot_ocean_basin_historical_partition.py \
   --output-dir outputs/figures
 ```
 
+To create the latitude-resolved figure, first aggregate the native 15-arc-second
+annual NetCDF maps. The central values remain at their native-map provenance;
+only the final latitude summation is performed here.
+
+```bash
+python src/figures/aggregate_15arcsec_latitude_main.py \
+  --results-root "$RESULTS/yearly_1940_2025" \
+  --start-year 1941 --end-year 2025 \
+  --output outputs/Fig04_latitudinal_15arcsec_annual_main.csv
+
+python src/figures/plot_latitudinal_thermosteric_partition.py \
+  --central-file outputs/Fig04_latitudinal_15arcsec_annual_main.csv \
+  --member-file outputs/uncertainty_1940_2023/member_results_latitude_10deg.csv \
+  --output-dir outputs/figures
+```
+
+The latitude figure treats 1941-2023 member intervals as uncertainty
+information. Its 2024-2025 cells show central estimates only.
+
 ## 5. Short-term projection
 
 The retained projection workflow uses a ten-year weighted-mean baseline and a
