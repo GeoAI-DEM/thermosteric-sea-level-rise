@@ -1,5 +1,9 @@
 # Running the workflow
 
+This guide covers the original configurable CLI entrypoints. For the latest
+contribution experiments, nested-latitude shells, EN4 comparisons and chosen
+manuscript plots, see [MANUSCRIPT_WORKFLOW.md](MANUSCRIPT_WORKFLOW.md).
+
 All commands below must be run after creating the Conda environment:
 
 ```bash
@@ -102,6 +106,8 @@ python src/figures/plot_latitudinal_thermosteric_partition.py \
 
 The latitude figure treats 1941-2023 member intervals as uncertainty
 information. Its 2024-2025 cells show central estimates only.
+This is an earlier ten-degree-latitude design, not the final shell-ridgeline
+figure. The final shell figure deliberately does not show member uncertainty.
 
 ## 5. Short-term projection
 

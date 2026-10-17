@@ -1,0 +1,534 @@
+{
+  "snapshot_date": "2026-10-17",
+  "scope": "code only; original workflow identifiers retained",
+  "files": [
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/calculate_interannual_variability.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/calculate_interannual_variability.py",
+      "source_sha256": "8f9e479492775222230b0a919be585e24901bd13b399d74820f402ce818f14da",
+      "repository_sha256": "a6729e091b722d57d9aa3bc783dace6f071369f39c2a89b45627f7e2a973b846",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/calculate_long_term_contributions.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/calculate_long_term_contributions.py",
+      "source_sha256": "dfea0f2d6a4c7bce4f005e4f9ff944d07e34cb0ca25954ce292648db076f0570",
+      "repository_sha256": "7838df72d149996723d85b6b8693e1852ae29e0debe7b19f13a0793803e4cfe1",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/calculate_paired_allocation_contrast.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/calculate_paired_allocation_contrast.py",
+      "source_sha256": "e109a21a91548c4ce757fa83a149fe149fa61ca6f354a5030ef9ed145e2b5492",
+      "repository_sha256": "de016aecb45c90c079afe049e51d4c8b63238bbed7bdd0859e2b69d77b85ea69",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/calculate_uncertainty_robustness.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/calculate_uncertainty_robustness.py",
+      "source_sha256": "f2cf16193da9c51a440fb955102d4495e92e77feac8f30440cf3c434cb440ff8",
+      "repository_sha256": "6791e8377486cdc1f34d054d1fa1bec900a517e5380d9915ee24cc00aa6ca7fb",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/compare_copernicus_thermosteric.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/compare_copernicus_thermosteric.py",
+      "source_sha256": "4b5858133aad3c9e0a0b2c36d5fb7a1641f33d674cdba971171b330b0220f824",
+      "repository_sha256": "3fb343c8858b9f42cf5ecd62f97f23104759510d873dbd935e730a4e782baeb9",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/compare_csiro_thermosteric.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/compare_csiro_thermosteric.py",
+      "source_sha256": "2a071cf01026052efae8324fdd0fc8dfafef451cc90273e42a043159593b03f6",
+      "repository_sha256": "1beaffb4e7d117c8cd75f024ec27c1a9f2cb457f2470e3e75ae8ad9de0cfd6c8",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/compare_ishii_thermosteric.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/compare_ishii_thermosteric.py",
+      "source_sha256": "b5338f11ee305d85753587017e039775e20bde3d464c11703ba265b87c30db3a",
+      "repository_sha256": "26d92e7eefcaa2a95c4f56170b22d9c6c2d299d2abb8587473d710d51a6d51f4",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/compare_noaa_thermosteric.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/compare_noaa_thermosteric.py",
+      "source_sha256": "5ca94af2e4af01d38391a94313e551ba4ae5b5c16d70b969fbe9bfae1293bba0",
+      "repository_sha256": "26698d8546f9e4819a83e9853009c2b4e73079f3fb7ec55522b1572382d47bc7",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/en4_uniform_core.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/en4_uniform_core.py",
+      "source_sha256": "71de1977f9ece03bda4809c4decfa9b0908105526876c0c3cdb33cceff3e92a3",
+      "repository_sha256": "5f494043bbe94ce8e931434f60c40630b1bb6ca2da05dca558ae258aefda725e",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/prepare_en4_uniform_reference.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/prepare_en4_uniform_reference.py",
+      "source_sha256": "2396416e9b7a14b9a05222d1223de96687a4dd8f084316a62467933475d5debb",
+      "repository_sha256": "d49b616b1f38dfda983a398774678fcf137135c37f4f03638698fd5893584034",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/run_en4_uniform_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/run_en4_uniform_comparison.py",
+      "source_sha256": "58cbcd77167595cdbc792ad3f653e826e7530d53d204f13c297489437326f80e",
+      "repository_sha256": "faa56a6ec17084643db46472460594a762ecaa0a426d54b0e364b87eeb885ab8",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [
+        "main"
+      ],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/summarize_en4_periods.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/summarize_en4_periods.py",
+      "source_sha256": "dccc36c88b4ae8afcb4292f2770653c598a8b0ccc5bdf6a56529a9e88edd738d",
+      "repository_sha256": "9d573e10fc52a88404d87615816fbcaadbcbc7226ae83f9a36e4891480f66038",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/test_en4_period_summary.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/test_en4_period_summary.py",
+      "source_sha256": "7bbb4b15ac628b50b72f1d1750564ff6fc2be10ff9f1b909c8702872be828094",
+      "repository_sha256": "34a7e2ccc73e15ebd33ba68715b942e4bfe9da3f2f8ee1f1440d643ee34124f4",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/en4_uniform_recalculation/test_en4_uniform_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/en4_uniform_recalculation/test_en4_uniform_comparison.py",
+      "source_sha256": "fb7011ae8995a08265b293bb6f13176aeddda058fbffabcdc9b02ab2351707f1",
+      "repository_sha256": "c88a138c8b4210db695b93ada2e99be2710b711a9cb297cf419b350655f92bd8",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/inspect_ishii_units.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/inspect_ishii_units.py",
+      "source_sha256": "5eeeaca597413803001d2fdf5b3c8f2c03d5c30849d55c7d2afec4814d4d8e1b",
+      "repository_sha256": "7d685a087d2b208f592730295925ea68df1d31fab6a2c4fb79eae25a3e90a1e4",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/nearest_basin_reassignment_20261015/prepare_nearest_ocean_cells.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/nearest_basin_reassignment_20261015/prepare_nearest_ocean_cells.py",
+      "source_sha256": "32a2c9d0c108e1a73a288c457049fe75d5e8a8ef23a40a9b31405350e6e5b844",
+      "repository_sha256": "19abb96c74d651d096e674391e94da7511b211094462c031e34c48ffc191d774",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/nearest_basin_reassignment_20261015/run_reassigned_variability.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/nearest_basin_reassignment_20261015/run_reassigned_variability.py",
+      "source_sha256": "92cd1a5596d64d6115758ba8fc7955ff35539345113a5dc81e61bcaa703de966",
+      "repository_sha256": "6b22334ae754d2b4536036b04e700e3378214d029b653d7095003f0c615ff110",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/nearest_basin_reassignment_20261015/test_nearest_reassignment.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/nearest_basin_reassignment_20261015/test_nearest_reassignment.py",
+      "source_sha256": "e7d99bfab296451852232960ae272b39c779b626c1ea8a4b290e8e88f251acfe",
+      "repository_sha256": "725d3e3345e760beef845e2d04018a665df0a98990f87e6cd406c4e73c7298a6",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/prepare_copernicus_reference.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/prepare_copernicus_reference.py",
+      "source_sha256": "8c24a0a7394ee27d9959e11d33695c197e35c26f3695b01dfb62ec743fa0f478",
+      "repository_sha256": "4150d5f971377dd005aaaed4241db68199c22b53a46e2c95e4c84653b03adeee",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/prepare_csiro_reference.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/prepare_csiro_reference.py",
+      "source_sha256": "8d8939ad9c54fc1fba63d5f5d48c4ef9ac816b3bf7697366c6ee70c8175960dd",
+      "repository_sha256": "fac09d54e7302b3530c5433358cbed594026bf35da985887e193331260a8b87a",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/step3_nearest_20261015/calculate_figure07_robustness.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/step3_nearest_20261015/calculate_figure07_robustness.py",
+      "source_sha256": "fe9a314e3d936b1a7e3418814444efa43ec2b3a7092816e1bc878dd5bceb0572",
+      "repository_sha256": "6b0efef51798282bc72b2165ddf95133aac2e4c4a0afea9ed1872cc1060d72e6",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/step3_nearest_20261015/test_figure07_robustness.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/step3_nearest_20261015/test_figure07_robustness.py",
+      "source_sha256": "3e5f5663eee9dbbb19e8058b23bc937f06e9cd6c0e7102ab7794262c35ba7946",
+      "repository_sha256": "232985a47006b0434eb2453a872e9d2718bfb92c9af0e2afd98403532a04fecb",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_copernicus_thermosteric_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_copernicus_thermosteric_comparison.py",
+      "source_sha256": "c1401134b719fb66555737db031f57c1cdad92158a3067827f1deaa1dc542cb0",
+      "repository_sha256": "bfa456298233e066563fba99cbc5de2c5585e0896ff3ea9a89c9974e4ab77f6e",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_csiro_thermosteric_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_csiro_thermosteric_comparison.py",
+      "source_sha256": "c158b8d8aa1edb671980c8b01fb7b3fea69c604dec68862d206a77887174e843",
+      "repository_sha256": "2071492e51c084b69246f3e51bea67cb3bf8487fff9ca8f4d3f3b93ebc55cb28",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_interannual_variability.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_interannual_variability.py",
+      "source_sha256": "1131d5aa6e6db51197df9f3f719d38c738b38e7bc218d05a6c3c31e36b0371cf",
+      "repository_sha256": "ac80ebe1460554441345dab73fb9341235882854c0a63ba98d82f9fd6e0dd7ed",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_ishii_thermosteric_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_ishii_thermosteric_comparison.py",
+      "source_sha256": "e7b3b2dc574f8aadd3e87cf5b20137bb98824175db73f9d425f1baacae500c13",
+      "repository_sha256": "0e0e0c2ca716b8cde81ae64ceea3d53e22d79b2957442324bd2a64f86e544dba",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_long_term_contributions.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_long_term_contributions.py",
+      "source_sha256": "151aff15bd1593c2041d1162cf9407737ae61351814d9b33f21e874cf13e6571",
+      "repository_sha256": "7a915c6843a82d7d0f476ec88ffe9e8b7f70f3f46305fd62fcd250ed3ea26c7d",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_noaa_thermosteric_comparison.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_noaa_thermosteric_comparison.py",
+      "source_sha256": "75bbf3f6439e9313b040406ad10976b090febe79ecd5d10a9bf40af71a1abe99",
+      "repository_sha256": "7f749c8331ff579f9e6627cb1586d9a94ee046a6b4103f262b32ab25d79d341d",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "contribution_structure_analysis/test_uncertainty_robustness.py",
+      "repository_path": "src/manuscript/contribution_structure_analysis/test_uncertainty_robustness.py",
+      "source_sha256": "9351075ec4f639acaa8600f2a32725ce527d3cc258da44b1802195204e89b5e9",
+      "repository_sha256": "c744af0adc28c1680251530feea0acadb7dc11ee420f546dbee93ff52ea48d20",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/aggregate_15arcsec_nested_latitude.py",
+      "repository_path": "src/manuscript/figures/aggregate_15arcsec_nested_latitude.py",
+      "source_sha256": "40283fccab885bf1f75e1760e41fc4566ea27fe2ccfec0f628a0ccd2f6dad43f",
+      "repository_sha256": "42cad1bb487213dbebe663e784891d75635d4ffdb83e105e4d7a4c7493aeb511",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_compact.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_compact.py",
+      "source_sha256": "6a7518ed869884dde65d11fb2e20b269df9e4375e84c61287b4c5a813c57d61f",
+      "repository_sha256": "560b1a4293fab55fae8f9b2356bf3ecde27c5777a51121504bb8ed0e7850deda",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_compact_aligned.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_compact_aligned.py",
+      "source_sha256": "b597c08bff056565252efbb549d6d8fae8203f2a004711887d25e1e5ea168795",
+      "repository_sha256": "afe689782c1a73b94b7439d19a6780229c85242c9c402e4e58c0883682a85700",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_embedded_mechanism.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_embedded_mechanism.py",
+      "source_sha256": "3060cd10edfdae265f24a0dc0419f3af5513438f2d1a3924a21851f1c68d7714",
+      "repository_sha256": "a599211ffac61acd22bdc145e9e6530cc414404ba501255d5af0e8b810b38157",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_equal_arrows.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_equal_arrows.py",
+      "source_sha256": "21aa59598c161d6381447f39a0235cdff2d934800be4ea3d743a3b85e338b883",
+      "repository_sha256": "c50a975f48776c6fa56e575c5db663a5d464af7f6e64cc4831843718feb49303",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_ocean_concept.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_ocean_concept.py",
+      "source_sha256": "cef0e92d48f0b880139fded296e13a7d97279fe778de2e0a87c9ee5f399c1a42",
+      "repository_sha256": "6e49dc3c9c6e129083c194c68ec068c13a82617d16bc43b0b73e895dddb348e4",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_refined_connectors.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_refined_connectors.py",
+      "source_sha256": "6384ab8b7f16ce8a48a9eb543147767f666a0b41a45d7bcd8c5b6467b2f0e75a",
+      "repository_sha256": "d03a1083be44c692aa7c6cfae97a03114db141a9d3e1a6a0643fc91601f47f1d",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_logic_redesign_20261003/plot_introduction_right_column.py",
+      "repository_path": "src/manuscript/figures/introduction_logic_redesign_20261003/plot_introduction_right_column.py",
+      "source_sha256": "d3ce7b46bdfe7695e82824939bedbcf1181273a387fcd98d8a8b2cc411380d12",
+      "repository_sha256": "a591b75d54e94220cad76b1cffd7ebd6bd7682e2943fbbbe6b7d11015bfb64c0",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/introduction_schematic_20261003/plot_introduction_ocean_framework.py",
+      "repository_path": "src/manuscript/figures/introduction_schematic_20261003/plot_introduction_ocean_framework.py",
+      "source_sha256": "721f9b641687346f1221a7d7398ff9c448ed560be0cab216bd7770bed8c8aa1e",
+      "repository_sha256": "d0f06e8146754cc5109d83ea2cbec3c8b989489eba793232e279528115ca0b1d",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/plot_latitude_shell_ridgelines_2025.py",
+      "repository_path": "src/manuscript/figures/plot_latitude_shell_ridgelines_2025.py",
+      "source_sha256": "1b6011d159281a102567fa444b30e9b6bb5a700a62863fb054652c42d0fb95df",
+      "repository_sha256": "4cd93c62b41291553a1faf4152afbb57a1d184e89bc3c2bd55daf602e15ce9cf",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/plot_latitudinal_thermosteric_partition_redesign.py",
+      "repository_path": "src/manuscript/figures/plot_latitudinal_thermosteric_partition_redesign.py",
+      "source_sha256": "cbd6c61e454e4e1a60a403afa693b322bb15228bf30d1b82d6166d650212db47",
+      "repository_sha256": "680d07628d8075350d8aecf82bd83aaae7aab020e740b9f0a3318cd016b0f801",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/plot_nested_latitude_15arcsec_2025.py",
+      "repository_path": "src/manuscript/figures/plot_nested_latitude_15arcsec_2025.py",
+      "source_sha256": "22552cf41fdc3be627066214c5cb9518d5816b075af66c65d6468f81787f975f",
+      "repository_sha256": "2581649c1cb2604037016d89b5bcbce45f29d0ee453edeaaab68880dae2f4f6a",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/plot_ocean_basin_historical_partition.py",
+      "repository_path": "src/manuscript/figures/plot_ocean_basin_historical_partition.py",
+      "source_sha256": "06f16e324b5b81223be358929c64b2d13187095bf4dffdbfaa7d90e5c6bb106d",
+      "repository_sha256": "42c33abd1fd560d1e8632a4655483c1119ca48d076c2447fc7e3de2f8ad9a224",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/plot_thermal_expansion_with_uncertainty.py",
+      "repository_path": "src/manuscript/figures/plot_thermal_expansion_with_uncertainty.py",
+      "source_sha256": "fe2b57e6df5d8655a9742a20db8d85151436d685ce8b5180cc607950996e92f3",
+      "repository_sha256": "759b0a5f377dd71da9aea758c459329fbc31a5d9ba31e4d1cbe882eb5bc56e26",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/rebuild_lon_aligned_figures.py",
+      "repository_path": "src/manuscript/figures/rebuild_lon_aligned_figures.py",
+      "source_sha256": "2efd9edb3268f3049bb925f40ac27f4f3558cca754281bde7010f6f4c58c85cf",
+      "repository_sha256": "16692c2affcc25d37f18771ff30dc43e4d840a6d3bb35cb5a683b6590de1b2dd",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step2_interannual_2025_20261015/plot_interannual_variability_2025.py",
+      "repository_path": "src/manuscript/figures/step2_interannual_2025_20261015/plot_interannual_variability_2025.py",
+      "source_sha256": "35498427b87c5c0069c81adcc99f17fdc2849db6bef4e0e85b23277204836085",
+      "repository_sha256": "42d5d2212740787b147ab9d534d882022be313b5b2ea91b9a9f7a04670ed2ec9",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step2_interannual_2025_nearest_20261015/plot_nearest_basin_variability.py",
+      "repository_path": "src/manuscript/figures/step2_interannual_2025_nearest_20261015/plot_nearest_basin_variability.py",
+      "source_sha256": "a0bdde853c8f5719c472a0ff82dc09e18d82bb1f6800ef9d835c2b0a8a508877",
+      "repository_sha256": "a20467d4d84ab3e53d2eddd0be42f499a7f21f7cbb2b3d915834288a776570a5",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step2_interannual_2025_nearest_20261015/verify_exports.py",
+      "repository_path": "src/manuscript/figures/step2_interannual_2025_nearest_20261015/verify_exports.py",
+      "source_sha256": "08b32ce6da1886724db90a0272de43c45f84ae97d1e02e83c688746a3a2669ec",
+      "repository_sha256": "c99c37991d57a04d660f7f254e588b949c5723cf829fc2ec659077d1b2f487a5",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step3_robustness_nearest_20261015/plot_robustness.py",
+      "repository_path": "src/manuscript/figures/step3_robustness_nearest_20261015/plot_robustness.py",
+      "source_sha256": "f61f1da39ba76db8b1c7ecd08456f37270be09b5f70e84f58ab362caff0bb48b",
+      "repository_sha256": "5068a07489235d9141fd9f0db0b078163383e91be943ae3ddab6ec9e1be0de4f",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step3_robustness_nearest_20261015/verify_robustness.py",
+      "repository_path": "src/manuscript/figures/step3_robustness_nearest_20261015/verify_robustness.py",
+      "source_sha256": "9c43027d5909d25f2291c4b5c1f173b11c5db74dd44302f60509eacc3ff66527",
+      "repository_sha256": "70a717a49cf000616a16bf7a84e679bf6474c2dada2dfa39ae87a8c263317b9b",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step4_cross_product_preview_20261015/plot_cross_product_figures.py",
+      "repository_path": "src/manuscript/figures/step4_cross_product_preview_20261015/plot_cross_product_figures.py",
+      "source_sha256": "8724313cc3511046e73e4656495d89ec31153d42e98e888eb54745b14d36b38f",
+      "repository_sha256": "b515f6ab1f5f572c26fe9fc1ed1130e1c33fe86cc9a619ae0aede0ea1ae3e2c9",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "figures/step4_cross_product_preview_20261015/verify_package.py",
+      "repository_path": "src/manuscript/figures/step4_cross_product_preview_20261015/verify_package.py",
+      "source_sha256": "d642b996b2e7a671d3eeeac15013cecf7bfe4cb3a66bcc34ad7b66ddf4d12424",
+      "repository_sha256": "990601b281d3d00b79e1223e24d95ff8dbfcbac4311a90db0ab8afebd42061ab",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "new.py",
+      "repository_path": "src/manuscript/new.py",
+      "source_sha256": "d622f8857ccab9bc4bc8ecc4db06769951d3f63cc6bde998b464ca80f1c1758b",
+      "repository_sha256": "804189b0f2be37e23abd27c13aece1796a12f325971300046b5be39cc67eff70",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [
+        "OptimizedMultiGPUCalculator",
+        "create_optimized_config",
+        "parse_command_line_args"
+      ],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "short_term_projection/run_depth_band_ensemble_projection.py",
+      "repository_path": "src/manuscript/short_term_projection/run_depth_band_ensemble_projection.py",
+      "source_sha256": "3a8b180b30783bea26939a4d510ae1aa16ee7e28a9d618b42c79517124b3e631",
+      "repository_sha256": "f5822773382465d7898a3395247951ef9b739a460cac5e2104333c7598221eaa",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "short_term_projection/run_explainable_dynamic_projection.py",
+      "repository_path": "src/manuscript/short_term_projection/run_explainable_dynamic_projection.py",
+      "source_sha256": "8700bb13447ed156c518cb6887bf62b118f9611e136cef12995f33f157ddc10f",
+      "repository_sha256": "672b9d761b1b6d166205fe6899cc9248da728ff8551acfe4892c67d527491e08",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "short_term_projection/run_global_projection.py",
+      "repository_path": "src/manuscript/short_term_projection/run_global_projection.py",
+      "source_sha256": "9e09eebcd6b1bc769973290aa6edd5969046e941da2bdadeb1e37026ddd990f1",
+      "repository_sha256": "632231c848a98bc76b6ecf67bafddd413ad49b9df2342b0cf4c0f9cd857a6c1f",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "short_term_projection/run_performance_weighted_ensemble.py",
+      "repository_path": "src/manuscript/short_term_projection/run_performance_weighted_ensemble.py",
+      "source_sha256": "2738d4a94877f3fb3f96afbe43a7e80b7beeacd35a5268c651b5db8ecf409caa",
+      "repository_sha256": "49d78444177b7011277bd8c1a70230a9e83a6a5ff2680b3a4cf443e2c4008607",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "short_term_projection/run_sparse_bsts_projection.py",
+      "repository_path": "src/manuscript/short_term_projection/run_sparse_bsts_projection.py",
+      "source_sha256": "afd4d72d3592c255ccdb389eec6a2cb1ac94fdc6a02da9ab2b4f2398f08f528d",
+      "repository_sha256": "157481efc5fb2b4a12776bd63d5029ea9d826f1313bd16a7c6034c68743b777c",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    },
+    {
+      "source_snapshot_relative_path": "uncertainty_analysis/tail_uncertainty_proxy/build_tail_uncertainty_proxy.py",
+      "repository_path": "src/manuscript/uncertainty_analysis/tail_uncertainty_proxy/build_tail_uncertainty_proxy.py",
+      "source_sha256": "1b46a4ba836670a58fa081209402f3730e2e2cb8a14f0d9d7a100034a469a09f",
+      "repository_sha256": "89508ab39f6d14a11bc7efec06e793920361535324f2136ee452ca32e3de3d1f",
+      "adaptation": "workspace/input defaults and launcher import search only",
+      "functions_with_path_default_changes": [],
+      "other_function_and_class_asts_unchanged": true
+    }
+  ]
+}

@@ -66,6 +66,15 @@ def normalize_longitude(lon):
     return np.mod(np.asarray(lon, dtype=np.float64) + 180.0, 360.0) - 180.0
 
 
+def align_member_longitude(values):
+    """Align the archive's 0.5-359.5 E columns with the -180-to-180 volume grid."""
+    source_lon = np.arange(0.5, 360.0, 1.0)
+    if values.shape[-1] != source_lon.size:
+        raise ValueError(f"Unexpected IAP member longitude count: {values.shape[-1]}")
+    order = np.argsort(normalize_longitude(source_lon))
+    return np.take(values, order, axis=-1)
+
+
 def fill_island_region(data, island_mask):
     filled = data.copy()
     expanded = np.zeros_like(island_mask)
@@ -297,7 +306,7 @@ def read_member_annual_temperature(member, year, climatology_files, member_file_
             member_dir.rmdir()
         except OSError:
             pass
-    return annual_sum / 12.0
+    return align_member_longitude(annual_sum / 12.0)
 
 
 def calculate_layer_changes(temp_base, temp_target, salt_base, salt_target, depth, volumes):

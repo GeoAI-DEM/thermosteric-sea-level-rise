@@ -7,6 +7,13 @@ __pycache__/
 # Local configuration and credentials
 config.local.yml
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+hosts.yml
 
 # Input data and generated products
 data/*
@@ -27,6 +34,8 @@ cache/
 *.jpg
 *.jpeg
 *.pdf
+*.svg
+*.eps
 
 # Operating-system and editor files
 .DS_Store

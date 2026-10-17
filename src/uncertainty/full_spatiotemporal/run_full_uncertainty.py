@@ -190,7 +190,13 @@ def all_region_specs():
     )
 
 
-def compute_grid_results(temp0, temp1, salt0, salt1, depth, volumes, masks, ocean_area):
+def depth_in_band(depth_m, lower, upper, depth_binning):
+    if depth_binning == "main_compatible":
+        return (lower < depth_m <= upper) or (lower == 0.0 and depth_m == 0.0)
+    return lower <= depth_m < upper
+
+
+def compute_grid_results(temp0, temp1, salt0, salt1, depth, volumes, masks, ocean_area, depth_binning="legacy"):
     totals = {(kind, name, band): 0.0 for kind, name, _ in all_region_specs() for band, _, _ in DEPTH_BANDS}
     for depth_index, depth_m in enumerate(depth):
         t0, t1 = temp0[depth_index], temp1[depth_index]
@@ -208,7 +214,7 @@ def compute_grid_results(temp0, temp1, salt0, salt1, depth, volumes, masks, ocea
         for kind, name, _ in all_region_specs():
             mask = masks[name]
             for band, lower, upper in DEPTH_BANDS:
-                if lower <= depth_m < upper:
+                if depth_in_band(depth_m, lower, upper, depth_binning):
                     amount = float(np.nansum(change[mask]))
                     totals[(kind, name, band)] += amount
     rows = []
@@ -349,7 +355,7 @@ def prepare_salinity_state(year, state_dir, depth, lat, lon, log):
 
 def year_pair_worker(member, base_year, target_year, cache_dir_str, output_dir_str,
                      basin_label_file_str, state_dir_str, salt_base_file_str,
-                     salt_target_file_str, keep_member_files):
+                     salt_target_file_str, keep_member_files, depth_binning="legacy"):
     """计算一个成员的一个年度配对；倒序运行时保留较早年份供下一步复用。"""
     output_dir = Path(output_dir_str)
     cache_dir = Path(cache_dir_str)
@@ -389,6 +395,7 @@ def year_pair_worker(member, base_year, target_year, cache_dir_str, output_dir_s
     try:
         rows = compute_grid_results(
             base_temp, target_temp, salt_base, salt_target, depth, volumes, masks, ocean_area,
+            depth_binning=depth_binning,
         )
         rows = [row for row in rows if member_supports_depth_band(member, row["depth_band"])]
         for row in rows:
@@ -432,6 +439,8 @@ def main():
     parser.add_argument("--end-year", type=int, default=2023)
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DEFAULT)
+    parser.add_argument("--depth-binning", choices=("legacy", "main_compatible"), default="legacy",
+                        help="Depth-boundary convention; use a separate output directory for each rule")
     parser.add_argument("--annual-dir", type=Path, required=True, help="Directory containing annual central IAP T/S NetCDF files")
     parser.add_argument("--volume-file", type=Path, required=True, help="1-degree GEBCO layer-volume NetCDF")
     parser.add_argument("--basin-shapefile-root", type=Path, required=True, help="Root directory of the IHO basin shapefiles")
@@ -451,6 +460,12 @@ def main():
         raise FileNotFoundError(f"Basin shapefile directory not found: {SHAPEFILE_ROOT}")
     output = args.output_dir.resolve()
     output.mkdir(parents=True, exist_ok=True)
+    metadata_file = output / "metadata.json"
+    if metadata_file.exists():
+        with metadata_file.open(encoding="utf-8") as handle:
+            previous_binning = json.load(handle).get("depth_binning", "legacy")
+        if previous_binning != args.depth_binning:
+            raise ValueError("Depth-binning differs from existing results; use a new output directory")
     log = logger_for(output / "processing.log")
     years = tuple(range(args.start_year, args.end_year + 1))
     cache = output / "cache"
@@ -474,7 +489,7 @@ def main():
                     executor.submit(
                         year_pair_worker, member, base_year, target_year, str(cache), str(output),
                         str(basin_label_file), str(state_dir), str(salt_base), str(salt_target),
-                        args.keep_member_files,
+                        args.keep_member_files, args.depth_binning,
                     ): member
                     for member in members
                 }
@@ -500,6 +515,8 @@ def main():
         "start_year": args.start_year, "end_year": args.end_year,
         "members": list(members), "workers": args.workers,
         "geometry": str(pilot.VOLUME_FILE), "basin_shapefile_root": str(SHAPEFILE_ROOT),
+        "member_longitude_alignment": "0.5-359.5 E reordered to -179.5-179.5 E before thermal expansion",
+        "depth_binning": args.depth_binning,
         "depth_bands": [x[0] for x in DEPTH_BANDS],
         "latitude_10deg_bands": [x[0] for x in LAT10],
         "latitude_cumulative_bands": [x[0] for x in LAT_CUMULATIVE],

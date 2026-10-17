@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this repository with the exact commit used. No archival DOI has yet been assigned."
+type: software
+title: "Global Thermosteric Sea-Level Rise"
+authors:
+  - family-names: Yang
+    given-names: Chanfan
+repository-code: "https://github.com/GeoAI-DEM/thermosteric-sea-level-rise"
+url: "https://github.com/GeoAI-DEM/thermosteric-sea-level-rise"
